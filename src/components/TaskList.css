@@ -1,0 +1,98 @@
+/* Message when no tasks exist */
+.no-tasks {
+  font-size: 16px;
+  padding: 12px;
+  color: #666;
+}
+
+/* Grid wrapper */
+.task-grid {
+  display: grid;
+  gap: 12px;
+}
+
+/* Task card container */
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 14px 16px;
+  border-radius: 10px;
+
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: 0.2s ease;
+}
+
+.task-card:hover {
+  border-color: #b8b8b8;
+  transform: translateY(-2px);
+}
+
+/* Left section */
+.task-info {
+  max-width: 75%;
+}
+
+.task-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.task-desc {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 6px;
+  white-space: pre-wrap;
+}
+
+.task-status {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.task-date {
+  font-size: 12px;
+  color: #777;
+}
+
+/* Right section (buttons) */
+.task-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Buttons */
+.edit-btn,
+.delete-btn {
+  padding: 6px 10px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Edit button style */
+.edit-btn {
+  background: #4b8df8;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #2a75f3;
+}
+
+/* Delete button style */
+.delete-btn {
+  background: #f54e4e;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #d94040;
+}
